@@ -17,7 +17,7 @@ class App < Sinatra::Base
     @number = params[:number]
     @phrase = params[:phrase]
     
-    end
+    
   end
 
 
