@@ -20,12 +20,11 @@ class App < Sinatra::Base
   end
 
   get '/say/:word1/:word2/:word3/:word4/:word5' do 
-    @word_one = params[:number]
-    @phrase = params[:phrase]
-    @number = params[:number]
-    @phrase = params[:phrase]
-    @number = params[:number]
-    @phrase = params[:phrase]
+    @word_one = params[:word_one]
+    @word_two = params[:word_two]
+    @word_three = params[:word_three]
+    @word_four = params[:word_four]
+    @word_five = params[:word_five]
   end
 
 end
